@@ -39,3 +39,4 @@ struct RegionCard: View {
         .padding(.horizontal)
     }
 }
+

@@ -4,8 +4,8 @@ import Foundation
 
 struct RegionDetailView: View {
     let region: Region
-    @StateObject private var viewModel = RegionPokemonViewModel()
     
+    @StateObject private var viewModel = RegionPokemonViewModel()
 
     var body: some View {
         VStack {
