@@ -14,6 +14,7 @@ struct Region: Identifiable {
         Region(name: "Kalos", pokedexRange: 650...721),
         Region(name: "Alola", pokedexRange: 722...809),
         Region(name: "Galar", pokedexRange: 810...898),
-        Region(name: "Paldea", pokedexRange: 899...1010)
+        Region(name: "Hisui", pokedexRange: 899...905),
+        Region(name: "Paldea", pokedexRange: 906...1025)
     ]
 }

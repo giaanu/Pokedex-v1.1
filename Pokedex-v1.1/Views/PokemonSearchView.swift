@@ -1,4 +1,5 @@
 import SwiftUI
+import Foundation
 
 struct PokemonSearchView: View {
     @StateObject var viewModel = PokemonViewModel()

@@ -36,7 +36,7 @@ class PokemonViewModel: ObservableObject {
         }
         
         do {
-            let (data, response) = try await URLSession.shared.data(from: url)
+            let (data, _) = try await URLSession.shared.data(from: url)
             
             // OPCIONAL: ver respuesta cruda para debug
             // print(String(data: data, encoding: .utf8)!)

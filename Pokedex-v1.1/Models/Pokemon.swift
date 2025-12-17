@@ -5,6 +5,7 @@ struct Pokemon: Decodable {
     let name: String
     let types: [PokemonTypeEntry]
     let sprites: PokemonSprites
+    let stats: [PokemonStatEntry]
 }
 
 struct PokemonTypeEntry: Decodable {
@@ -36,4 +37,13 @@ struct OfficialArtwork: Codable {
     enum CodingKeys: String, CodingKey {
         case front_default = "front_default"
     }
+}
+
+struct PokemonStatEntry: Decodable {
+    let base_stat: Int
+    let stat: PokemonStat
+}
+
+struct PokemonStat: Decodable {
+    let name: String
 }

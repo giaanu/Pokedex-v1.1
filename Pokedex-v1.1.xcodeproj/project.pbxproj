@@ -35,16 +35,6 @@
 			path = "Pokedex-v1.1";
 			sourceTree = "<group>";
 		};
-		99D8ADC92EED1B3500A0D288 /* Pokedex-v1.1Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Pokedex-v1.1Tests";
-			sourceTree = "<group>";
-		};
-		99D8ADD32EED1B3500A0D288 /* Pokedex-v1.1UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Pokedex-v1.1UITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				99D8ADBB2EED1B3500A0D288 /* Pokedex-v1.1 */,
-				99D8ADC92EED1B3500A0D288 /* Pokedex-v1.1Tests */,
-				99D8ADD32EED1B3500A0D288 /* Pokedex-v1.1UITests */,
 				99D8ADBA2EED1B3500A0D288 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				99D8ADC82EED1B3500A0D288 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				99D8ADC92EED1B3500A0D288 /* Pokedex-v1.1Tests */,
-			);
 			name = "Pokedex-v1.1Tests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				99D8ADD22EED1B3500A0D288 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				99D8ADD32EED1B3500A0D288 /* Pokedex-v1.1UITests */,
 			);
 			name = "Pokedex-v1.1UITests";
 			packageProductDependencies = (
@@ -397,11 +379,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9VBD5G564R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pokedex de Gian";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -429,11 +413,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9VBD5G564R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pokedex de Gian";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
