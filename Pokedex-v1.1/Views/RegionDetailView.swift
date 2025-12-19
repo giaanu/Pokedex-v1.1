@@ -28,10 +28,17 @@ struct RegionDetailView: View {
                         .frame(height: 110)
 
                     // Título de región
-                    Text(region.name)
-                        .font(.title.bold())
-                        .foregroundColor(.black)
-                        .padding(.bottom, 16)
+                    HStack {
+                        Spacer()
+
+                        VStack(alignment: .trailing, spacing: 4) {
+                            Text(region.name)
+                                .font(.title.bold())
+                                .foregroundColor(.blue)
+                        }
+                    }
+                    .padding(.horizontal, 20)
+                    .padding(.bottom, 16)
 
                     // 🟦 Lista de Pokémon
                     ScrollView {

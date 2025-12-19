@@ -22,6 +22,7 @@ struct PokemonGridCard: View {
             Text(pokemon.name.capitalized)
                 .font(.footnote.bold())
                 .foregroundColor(.black)
+                .lineLimit(1)
         }
         .padding(12)
         .background(

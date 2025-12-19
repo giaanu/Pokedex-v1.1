@@ -16,12 +16,12 @@ struct PokemonInfoView: View {
 
                 // 🟨 PANTALLA BLANCA (zona fija)
                 VStack(spacing: 12) {
-
+                    
                     if let urlString =
                         pokemon.sprites.other?.officialArtwork?.front_default
                         ?? pokemon.sprites.front_default,
                        let url = URL(string: urlString) {
-
+                        
                         AsyncImage(url: url) { image in
                             image
                                 .resizable()
@@ -30,14 +30,15 @@ struct PokemonInfoView: View {
                             ProgressView()
                         }
                         .frame(height: 160) // ✅ nunca sale del blanco
+                        
+                        Text("#\(pokemon.id)")
+                            .foregroundColor(.black)
+
+                        Text(pokemon.name.capitalized)
+                            .font(.title.bold())
+                            .foregroundColor(.black)
+
                     }
-
-                    Text("#\(pokemon.id)")
-                        .foregroundColor(.secondary)
-
-                    Text(pokemon.name.capitalized)
-                        .font(.title.bold())
-
                 }
                 .frame(height: 400)       // 🔒 altura REAL del rectángulo blanco
                 .frame(maxWidth: .infinity)
@@ -60,3 +61,4 @@ struct PokemonInfoView: View {
         }
     }
 }
+
