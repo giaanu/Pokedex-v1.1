@@ -128,7 +128,12 @@ Las próximas versiones se enfocarán en **navegación avanzada** y **contenido 
 
 ## 👨‍💻 Autor
 
-Desarrollado por **Gianluca Zarrelli**  
+Gianluca Zarrelli
+Estudiante de Desarrollo de Software
+
+📍 Buenos Aires, Argentina
+🔗 https://www.linkedin.com/in/gianlucazarrelli/
+
 Proyecto personal para aprendizaje y exploración de SwiftUI, arquitectura y diseño de interfaces complejas.
 
 ---
