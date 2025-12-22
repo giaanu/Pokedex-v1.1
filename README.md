@@ -47,6 +47,23 @@ Vista dividida en **dos pantallas deslizables**:
 - Navegación basada en `NavigationStack`
 - Arquitectura preparada para navegación avanzada (siguiente/anterior Pokémon)
 
+## 📷 Capturas
+Pantalla inicial:
+
+<img width="472" height="1055" alt="image" src="https://github.com/user-attachments/assets/56e80ecc-4398-41e6-9080-dd59c3a521e5" />
+
+
+Vista de Region (Kanto):
+
+
+<img width="472" height="1055" alt="image" src="https://github.com/user-attachments/assets/e7c4743a-f7d5-4718-8611-cb46e0d75159" />
+
+
+Vista de detalle del pokemon:
+
+<img width="472" height="1055" alt="image" src="https://github.com/user-attachments/assets/c81d71f9-518b-4ce3-9ad9-2c13d2b1811f" />
+
+
 ---
 
 ## 🧱 Arquitectura
@@ -96,6 +113,16 @@ Vista dividida en **dos pantallas deslizables**:
 🟢 **En desarrollo activo**  
 La base funcional y visual ya está completa.  
 Las próximas versiones se enfocarán en **navegación avanzada** y **contenido de entrenadores y gimnasios**.
+
+---
+
+## ▶️ Cómo ejecutar el proyecto
+
+1. Clonar el repositorio:
+  git clone https://github.com/giaanu/Swift-Pokedex.git
+2. Abrir el proyecto en Xcode
+3. Seleccionar el simulador deseado o el dispositivo fisico.
+4. Ejecutar la aplicación
 
 ---
 
